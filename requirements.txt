@@ -1,3 +1,0 @@
-docker-compose==1.29.2
-docker==20.10.8
-npm==8.1.0
