@@ -28,7 +28,7 @@ jobs:
           source venv/bin/activate
       
       - name: Install dependencies
-      - find: . -regex '.*requirements.txt$'
+      - run: find . -regex '.*requirements.txt$'
       #run: pip install -r requirements.txt
       - run: pip install -r requirements.txt 
         
